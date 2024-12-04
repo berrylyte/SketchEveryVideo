@@ -2,7 +2,10 @@
   "manifest_version": 3,
   "name": "Sketch Every Video!",
   "version": "1.0",
-  "description": "Controls video playback for sketch practice",
+  "description": "This extension allows you to set up pause time, and sketch every video you watch.",
+  "icons": {
+    "128": "icon128.png"
+  },
   "permissions": ["activeTab", "storage"],
   "host_permissions": [
     "*://*.youtube.com/*",
